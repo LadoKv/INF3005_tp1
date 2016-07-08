@@ -1,0 +1,26 @@
+body {
+    background: #000000;
+    background-image: url("../img/girl1.jpg");
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 2px 3px 3px #000000;
+}
+div {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+}
+
+p {
+    font-size: 12px;
+}
+
+table {
+    font-size: 14px;
+}
+select{
+    width: 100px;
+}

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Autorisation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/PersonalInfo.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/principal.css"  />
+    </head>
+    <body>
+        <h2>Bienvenue sur "les photos en ligne"</h2>
+        <div>
+           
+            <fieldset>
+                <legend><b>Formulaire d'autorisation</b></legend>
+
+                <form action="Autorisation.php" method="post"  enctype="multipart/form-data" onsubmit="return validateChamps()" >
+                    <table>
+                        <tr>
+                            <td>Nom d’usager:</td> 
+                            <td><input type="text" name="login" id="login" autofocus /></td>
+                        </tr>
+                        <tr>
+                            <td>Mot de passe:</td>
+                            <td> <input type="password" name="password" id="password"/></td>
+                        </tr>
+                    </table>
+                    <p>Autoriser vous!
+                        <br>Si vous n'avez pas de compte, 
+                        <br>entrez un nom d'usager et mot de pass 
+                        <br>pour crée un nouveau compte
+                    </p>
+                    <input type="submit" name="envoi" value="Envoyer" />
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
